@@ -1,0 +1,22 @@
+	OPERADORES ARITMÉTICOS
++ Adição		** Exponenciação ou Potência
+- Subtração		// Divisão inteira
+* Multiplicação		%  Resto da Divisão
+/ Divisão
+
+	EXEMPLOS
+5 + 2 == 7	5 ** 2 == 25
+5 - 2 == 3	5 // 2 == 2
+5 * 2 == 10	5 %  2 == 1
+5 / 2 == 2.5
+
+	ORDEM DE PRECEDÊNCIA
+1 ()
+2 **
+3 * / // %
+4 + -
+
+	EXEMPLOS
+5 + 3 * 2 == 11
+3 * 5 + 4 ** 2 == 31
+3 * ( 5 + 4 ) ** 2 == 243

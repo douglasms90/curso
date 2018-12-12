@@ -1,0 +1,9 @@
+	TIPOS PRIMITIVOS E SAIDA DE DADOS
+
+int	numeros inteiros				7 -4 0 9875
+float	numeros reais ou numeros de pontos flutuantes.	4.5 0.076 -15.223 7.0
+bool	valores lógicos ou boleanos			True False 		#Sempre colocar o T e F maiusculos como valores boleanos
+str	valores caracteres ou strings			'Olá' '7.5' ''
+
+print('A soma vale', s)			#Antiga sintaxe
+print('A soma vale {}'.format(s))	#Nova sintaxe

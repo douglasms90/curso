@@ -1,0 +1,12 @@
+	#Para importar todas
+import math
+  ceil		arredondamento pra cima
+  floor		arredondamento pra baixo
+  trunc		truncar o numero (elimina da virgula pra frente sem fazer arredondamento algum)
+  pow		potencia
+  sqrt		calcula raiz quadrada
+  factorial	calculo fatorial de um número
+
+	#OU apenas algumas
+
+from math import ceil, floor, trunc, pow, sqrt, factorial

@@ -1,0 +1,38 @@
+frase = 'Curso em Vídeo Python'
+| C | u | r | s | o |   | e | m |   | V | í | d | e | o |   | P | y | t | h | o | n |
+  0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20
+
+	# Fatiamento
+
+frase[9]	| V |				# Número do índice naquela string
+frase[9:13]	| V | e |			# Do índice 9 até o 13 sendo que o ultimo não conta
+frase[9:21:2]	| V | d | o | P | t | o |	# Começa do 9 até o 21 saltando de 2 em 2
+frase[:5]	| C | u | r | s | o |		# Começa do inicio 0 até o índice 5
+frase[15:]	| P | y | t | h | o | n |	# Começa do índice 15 até o final 21
+frase[9::3]	| V | e | P | h |		# Começa do índice 9 até o final 21 saltando de 3 em 3
+
+	# Análise
+
+len					# length: que significa comprimento
+len(frase)			21	# Logo a frase tem 21 caracteres ou seja 21 micro espaços na memória
+frase.count('o')		3	# Contar quantas vezes aparece o caractere "o" na frase. Obs: miúsculo não conta.
+frase.count('o', 0, 13) 	2	# Faz uma contagem já com fatiamento do 0 até o 13
+frase.find('deo')		11	# Qual posição começou "deo"
+frase.find('Android')		-1	# Procurar a string especificada dentro do texto
+'Curso' in frase		True	# Confirma se existe a string especificada na frase
+
+	# Transformação
+
+frase.replace('Python', 'Android')	# Localiza a string "Python" e trocar para "Android"
+frase.upper()				# Muda todas as letras minusculas para maiúsculas
+frase.lower()				# Muda todas as letras maiúsculas para minusculas
+frase.capitalize()			# Muda todos os caracteres para minusculas e só a primeira letra em maiúscula
+frase.title()				# Muda todas a primeira letra de TODAS as palavras para Maiuscula
+frase.strip()				# Elimina espaços excedentes no inicio e no fim da frase
+frase.rstrip()				# Elimina somente os ultimos espaços excedentes, no caso da direita (right)
+frase.lstrip()				# Elimina somente os primeiros espaços excedentes, no caso da esquerda (left)
+
+	# Divisão
+
+frase.split()		# Será feita uma divisão de palavras recomeçando a contagem em cada palavra, numerando palavras tambem
+'-'.join(frase)		# Junta todas as palavras com o separador indicado
